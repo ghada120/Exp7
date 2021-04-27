@@ -1,3 +1,6 @@
+const port = process.env.PORT || 3000;
+app.listen(port /PortNumber/, () => console.log(`Listeneing on port ${port}......`) );
+
 var express = require('express')
   , bodyParser = require('body-parser');
 const app = express()
